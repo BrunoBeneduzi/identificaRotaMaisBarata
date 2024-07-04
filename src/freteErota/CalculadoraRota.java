@@ -18,7 +18,7 @@ public class CalculadoraRota {
 		this.calculaSegundaRota();//terceira etapa, verifica se existe uma rota que tenha incluso a cidade ponte e faz a soma da rota
 		
 		if(cidadePonte.equalsIgnoreCase(cidadeDestino)) {//se a cidade ponte for igual a cidade de destino então foi usado somente 1 rota
-			System.out.println(cidadeSaida + " Sem cidade ponte " + cidadeDestino +"\n"+valorMaisBaixo);
+			System.out.println(cidadeSaida+ ","+cidadeDestino +"\n"+valorMaisBaixo);
 		}else {
 			System.out.println(cidadeSaida+","+cidadePonte+","+cidadeDestino+"\n"+valorMaisBaixo);
 		}
