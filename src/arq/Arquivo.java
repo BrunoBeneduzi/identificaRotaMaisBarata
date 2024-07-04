@@ -11,7 +11,7 @@ import freteErota.Rota;
 
 public class Arquivo {
 	BufferedReader br;
-	private String path = "src\\cep.txt";
+	private String path = "identificaRotaMaisBarata-main\\src\\cep.txt";
 	
 	private List<Long> cepBuscado = new ArrayList<>();
 	private List<Rota> rotas = new ArrayList<>();
